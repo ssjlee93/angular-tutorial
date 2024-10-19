@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ReversePipe } from '../reverse.pipe';
+import { ReversePipe } from '../pipes/reverse.pipe';
 
 @Component({
   selector: 'app-custom-pipe',
