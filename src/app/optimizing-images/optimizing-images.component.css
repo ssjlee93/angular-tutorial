@@ -1,0 +1,15 @@
+.relative-container {
+  position: relative;
+}
+
+.fixed-container {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+}
+
+.absloute-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
