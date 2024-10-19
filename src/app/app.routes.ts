@@ -13,6 +13,12 @@ import { OptimizingImagesComponent } from './optimizing-images/optimizing-images
 import { RoutingComponent } from './routing/routing.component';
 import { FormsComponent } from './forms/forms.component';
 import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
+import { ServiceComponent } from './service/service.component';
+import { InjectComponent } from './inject/inject.component';
+import { ConstructorComponent } from './constructor/constructor.component';
+import { PipeFormattingComponent } from './pipe-formatting/pipe-formatting.component';
+import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
+import { PipeOverviewComponent } from './pipe-overview/pipe-overview.component';
 
 export const routes: Routes = [
     {
@@ -84,5 +90,35 @@ export const routes: Routes = [
         path: 'reactive-forms',
         title: 'App Reactive Forms Page',
         component: ReactiveFormsComponent
+    },
+    {
+        path: 'service',
+        title: 'App Service Page',
+        component: ServiceComponent
+    },
+    {
+        path: 'inject',
+        title: 'App Inject Page',
+        component: InjectComponent
+    },
+    {
+        path: 'constructor',
+        title: 'App Constructor Page',
+        component: ConstructorComponent
+    },
+    {
+        path: 'pipes',
+        title: 'App Pipes Page',
+        component: PipeOverviewComponent
+    },
+    {
+        path: 'pipe-formatting',
+        title: 'App Pipe Formatting Page',
+        component: PipeFormattingComponent
+    },
+    {
+        path: 'custom-pipe',
+        title: 'App Custom Pipe Page',
+        component: CustomPipeComponent
     },
 ];
